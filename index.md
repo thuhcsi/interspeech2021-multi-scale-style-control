@@ -10,14 +10,18 @@ Moreover, by assigning different reference speeches to extraction of style on ea
 
 ## Quasi-phoneme-scale v.s. Frame-scale
 
+In order to prove that downsampling of fine-grained prosody sequence enhances the robustness of reference attention, we present the style transfer results of Multi-scale Style Models with proposed quasi-phoneme-scale (**proposed**) and frame-scale (**Base-FS**) respectively. From left to right, each diagram includes the spectrograms of the reference and synthesized audios, and the alignments of decoder attention and reference attention. 
+
 ### Sample1
 
 **Reference Audio**
+
 | Audio | Chinese Text | Emotion |
 | :---- | :---- | :---- |
 | <audio controls><source src="./static/qvsf/ref/case1.wav" type="audio/wav">Your browser does not support the audio element.</audio> | 我顺道来玩一玩好吗？我会学小猫叫哦，喵 | Sad |
 
 **Result**
+
 | System | Plot result | Synthesized Audio |
 |:------------|:------------|:------------|
 | Base-FS | ![qvsf_basefs_case1](./static/qvsf/basefs/case1.png) | <audio controls><source src="./static/qvsf/basefs/case1.wav" type="audio/wav">Your browser does not support the audio element.</audio> |
@@ -26,11 +30,13 @@ Moreover, by assigning different reference speeches to extraction of style on ea
 ### Sample2
 
 **Reference Audio**
+
 | Audio | Chinese Text | Emotion |
 | :---- | :---- | :---- |
 | <audio controls><source src="./static/qvsf/ref/case2.wav" type="audio/wav">Your browser does not support the audio element.</audio> | 我顺道来玩一玩好吗？我会学小猫叫哦，喵 | Surprised |
 
 **Result**
+
 | System | Plot result | Synthesized Audio |
 |:------------|:------------|:------------|
 | Base-FS | ![qvsf_basefs_case2](./static/qvsf/basefs/case2.png) | <audio controls><source src="./static/qvsf/basefs/case2.wav" type="audio/wav">Your browser does not support the audio element.</audio> |
@@ -40,11 +46,13 @@ Moreover, by assigning different reference speeches to extraction of style on ea
 ### Sample3
 
 **Reference Audio**
+
 | Audio | Chinese Text | Emotion |
 | :---- | :---- | :---- |
 | <audio controls><source src="./static/qvsf/ref/case3.wav" type="audio/wav">Your browser does not support the audio element.</audio> | 你猜我猜你猜不猜，今天算了，去玩吧 | Angry |
 
 **Result**
+
 | System | Plot result | Synthesized Audio |
 |:------------|:------------|:------------|
 | Base-FS | ![qvsf_basefs_case3](./static/qvsf/basefs/case3.png) | <audio controls><source src="./static/qvsf/basefs/case3.wav" type="audio/wav">Your browser does not support the audio element.</audio> |
@@ -54,11 +62,13 @@ Moreover, by assigning different reference speeches to extraction of style on ea
 ### Sample4
 
 **Reference Audio**
+
 | Audio | Chinese Text | Emotion |
 | :---- | :---- | :---- |
 | <audio controls><source src="./static/qvsf/ref/case4.wav" type="audio/wav">Your browser does not support the audio element.</audio> | 同学，要我帮你培养正确三观吗？ | Fear |
 
 **Result**
+
 | System | Plot result | Synthesized Audio |
 |:------------|:------------|:------------|
 | Base-FS | ![qvsf_basefs_case4](./static/qvsf/basefs/case4.png) | <audio controls><source src="./static/qvsf/basefs/case4.wav" type="audio/wav">Your browser does not support the audio element.</audio> |
@@ -68,11 +78,13 @@ Moreover, by assigning different reference speeches to extraction of style on ea
 ### Sample5
 
 **Reference Audio**
+
 | Audio | Chinese Text | Emotion |
 | :---- | :---- | :---- |
 | <audio controls><source src="./static/qvsf/ref/case5.wav" type="audio/wav">Your browser does not support the audio element.</audio> | 同学，要我帮你培养正确三观吗？ | Surprised |
 
 **Result**
+
 | System | Plot result | Synthesized Audio |
 |:------------|:------------|:------------|
 | Base-FS | ![qvsf_basefs_case5](./static/qvsf/basefs/case5.png) | <audio controls><source src="./static/qvsf/basefs/case5.wav" type="audio/wav">Your browser does not support the audio element.</audio> |
